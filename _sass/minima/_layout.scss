@@ -290,3 +290,84 @@
 		}
 	}
 }
+
+#artist-grid {
+	.artist-box {
+		padding: 0 0.5em;
+		width: 33.33%;
+		float: left;
+		position: relative;
+		margin-bottom:1em;
+		vertical-align: top;
+		transition: all 0.25s;
+	}
+	.aspect-ratio {
+		padding-top: 100%;
+		width: 100%;
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: 6px;
+	}	
+	.hover-info {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.7);
+		transition: all 0.25s;
+		opacity: 0;
+	}
+	.aspect-ratio:hover .hover-info {
+		opacity: 1;
+	}
+	.hover-content {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+	.hover-content li {
+		padding: 4px;
+		margin: 4px;
+		cursor: pointer;
+		font-size: 2em;
+		color: white !important;
+	}
+	.hover-content li a {
+		text-decoration: none;
+	}
+}
+
+#nav {
+	width: 100%;
+	background: #333;
+	padding: 8px 0;
+	ul {
+		position: relative;
+		max-width: calc(800px - (30px * 2));
+		display: block;
+		margin: auto;
+		li {
+			vertical-align: middle;
+			font-weight: lighter;
+			margin-right: 1em;
+			color: #9d9d9d;
+			list-style: none;
+			display: inline;
+			&:hover {
+				color: white;
+			}
+			span {
+				font-size: 0.5em;
+				vertical-align: middle;
+			}
+		}
+	}
+}

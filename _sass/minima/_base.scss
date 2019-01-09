@@ -111,7 +111,8 @@ a {
   }
 
   &:visited {
-    color: darken($brand-color, 15%);
+	  color: inherit;
+    // color: darken($brand-color, 15%);
   }
 
   &:hover {
