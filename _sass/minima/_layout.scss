@@ -292,6 +292,8 @@
 }
 
 #artist-grid {
+	display: block;
+	position: relative;
 	.artist-box {
 		padding: 0 0.5em;
 		width: 33.33%;
@@ -337,7 +339,7 @@
 		padding: 4px;
 		margin: 4px;
 		cursor: pointer;
-		font-size: 2em;
+		font-size: 1em;
 		color: white !important;
 	}
 	.hover-content li a {
@@ -348,13 +350,14 @@
 #nav {
 	width: 100%;
 	background: #333;
-	padding: 8px 0;
+	padding: 10px 0;
 	ul {
 		position: relative;
 		max-width: calc(800px - (30px * 2));
 		display: block;
 		margin: auto;
 		li {
+			position: relative;
 			vertical-align: middle;
 			font-weight: lighter;
 			margin-right: 1em;
@@ -368,6 +371,56 @@
 				font-size: 0.5em;
 				vertical-align: middle;
 			}
+			ul {
+				display: none;
+				position: absolute;
+				background: white;
+				z-index: 10;
+				width: 150px;
+				li {
+					color: #333;
+					&:hover {
+						color: #333;
+					}
+				}
+			}
 		}
+	}
+}
+
+#greeting {
+	margin: 3em 0;
+	img {
+		display: block;
+		max-width: 400px;
+		margin: auto;
+	}
+}
+
+footer {
+	position: relative;
+	display: block;
+	width: 100%;
+	border-top: solid 1px lightgray;
+	height: 30px;
+	padding: 2em 0 4em 0;
+	text-align: center;
+	#links-container {
+		margin: 1em 0;
+		img {
+			width: 40px;
+			margin: 0 6px;
+			opacity: 0.75;
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.artist-container {
+	margin: 2em 0;
+	.content {
+		margin: 2em 0;
 	}
 }

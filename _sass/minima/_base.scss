@@ -8,6 +8,10 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 
 
 /**
@@ -106,8 +110,11 @@ a {
   color: inherit;
   text-decoration: none;
 
-  .color {
+  &.color {
 	color: $brand-color;
+	&:hover {
+		color: darken($brand-color, 15%);
+	}
   }
 
   &:visited {
@@ -256,4 +263,8 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+.pointer {
+	cursor: pointer;
 }

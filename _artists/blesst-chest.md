@@ -2,6 +2,7 @@
 layout: artist
 name: Blesst Chest
 image: assets/images/artists/blesst-chest.jpg
+link: blesst-chest
 ---
 
 Welcome Komrades to the Blesst Chest promo sheet. I’m psyched to be hearing this album. Takes me way back (two years) to the Halcyon Sweat Beer Days and their many gigs at godforsaken shitboxes around Portland. The boys wouldn’t have it any other way: “Paying dues” is standard operating procedure. Months and months were spent in the rehearsal room to get to this point— because what else would you do with your precious free time?

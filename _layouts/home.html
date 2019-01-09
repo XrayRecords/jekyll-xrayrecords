@@ -2,14 +2,19 @@
 layout: site
 ---
 
+<div id="greeting">
+	<img src="assets/images/logo.png" alt="">
+</div>
+
 <div id="artist-grid">
-	{% for artist in site.artists %}
+	{% assign artists = site.artists | sort:"name" %}
+	{% for artist in artists %}
 		<div class="artist-box">
 			<div class="aspect-ratio" style="background-image: url('{{ artist.image }}')">
 				<div class="hover-info">
 					<ul class="hover-content">
 						<li>
-							<a href="artists/blesst-chest">{{ artist.name }}</a>
+							<a href="artists/{{ artist.link }}">{{ artist.name }}</a>
 						</li>
 					</ul>
 				</div>
