@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: shop
 title: Shop
 permalink: /shop
 ---
