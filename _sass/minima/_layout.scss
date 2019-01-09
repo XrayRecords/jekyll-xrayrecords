@@ -100,8 +100,6 @@
 //   }
 // }
 
-
-
 // /**
 //  * Site footer
 //  */
@@ -170,8 +168,6 @@
 //   }
 // }
 
-
-
 // /**
 //  * Page content
 //  */
@@ -206,8 +202,6 @@
 //   display: block;
 //   @include relative-font-size(1.5);
 // }
-
-
 
 // /**
 //  * Posts
@@ -299,7 +293,7 @@
 		width: 33.33%;
 		float: left;
 		position: relative;
-		margin-bottom:1em;
+		margin-bottom: 1em;
 		vertical-align: top;
 		transition: all 0.25s;
 	}
@@ -311,7 +305,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		margin-bottom: 6px;
-	}	
+	}
 	.hover-info {
 		position: absolute;
 		top: 0;
@@ -371,16 +365,25 @@
 				font-size: 0.5em;
 				vertical-align: middle;
 			}
+			&.dropdown {
+				&:hover ul {
+					display: inherit;
+				}
+			}
 			ul {
 				display: none;
+				padding: 8px 4px;
 				position: absolute;
-				background: white;
+				top: 1.5em;
+				left: 0;
+				background: #333;
 				z-index: 10;
 				width: 150px;
 				li {
-					color: #333;
+					display: block;
+					color: #9d9d9d;
 					&:hover {
-						color: #333;
+						color: white;
 					}
 				}
 			}

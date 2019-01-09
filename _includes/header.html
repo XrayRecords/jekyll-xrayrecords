@@ -1,12 +1,19 @@
 <header class="site-header" role="banner">
 	<div id="nav" role="navigation">
 		<ul>
-			<li class="home"><a href="{{ 'home' | absolute_url }}">XRAY Records</a></li>
-			<li class="pointer">
+			<li class="home">
+				<a href="{{ 'home' | absolute_url }}">XRAY Records</a>
+			</li>
+			<li class="pointer dropdown">
 				Artists <span>&#9660;</span>
 				<ul>
 					{% for artist in site.artists %}
-						<li><a href="#">{{ artist.name }}</a></li>
+					<li>
+						{% assign path = 'artists/' | append: artist.link %}
+						<a href="{{ path | absolute_url }}">{{
+							artist.name
+						}}</a>
+					</li>
 					{% endfor %}
 				</ul>
 			</li>
