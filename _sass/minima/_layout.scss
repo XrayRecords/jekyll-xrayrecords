@@ -365,20 +365,20 @@
 				font-size: 0.5em;
 				vertical-align: middle;
 			}
-			&.dropdown {
-				&:hover ul {
-					display: inherit;
-				}
-			}
+			// &.dropdown {
+			// 	&:hover ul {
+			// 		display: inherit;
+			// 	}
+			// }
 			ul {
 				display: none;
-				padding: 8px 4px;
+				padding: 10px;
 				position: absolute;
 				top: 1.5em;
 				left: 0;
 				background: #333;
 				z-index: 10;
-				width: 150px;
+				min-width: 150px;
 				li {
 					display: block;
 					color: #9d9d9d;

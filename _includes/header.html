@@ -4,9 +4,9 @@
 			<li class="home">
 				<a href="{{ 'home' | absolute_url }}">XRAY Records</a>
 			</li>
-			<li class="pointer dropdown">
+			<li class="pointer dropdown" onclick="showNavDropdown()">
 				Artists <span>&#9660;</span>
-				<ul>
+				<ul id="artist-dropdown">
 					{% for artist in site.artists %}
 					<li>
 						{% assign path = 'artists/' | append: artist.link %}
