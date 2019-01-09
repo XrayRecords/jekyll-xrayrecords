@@ -12,4 +12,5 @@ There is a Working Man’s Humility to their Prog Rock Leanings. I hear the desp
 The album sounds like a Beefier version of their already Beefed Up live show. For a couple shekels, you can buy this LP and pretty much be there at the gig with us (even though you probably weren’t). And where the Boys will go next, if they deign to play these jams in your town soon, well now you know a bit what’s in store for ya!
 
 I’ve been saving the worst for last. I doubt they will show their faces on the cover but trust me they are Dead Foxxy—especially remarkable for an Instrumental Power Trio. I guess what I’m saying is…
-What’s not to Love??? — Stephen Malkmus
+What’s not to Love???  
+— Stephen Malkmus

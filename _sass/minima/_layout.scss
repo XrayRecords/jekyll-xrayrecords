@@ -350,10 +350,10 @@
 #nav {
 	width: 100%;
 	background: #333;
-	padding: 10px 0;
+	padding: 16px 16px;
 	ul {
 		position: relative;
-		max-width: calc(800px - (30px * 2));
+		max-width: calc(1000px - (30px * 2));
 		display: block;
 		margin: auto;
 		li {
@@ -395,15 +395,25 @@
 		max-width: 400px;
 		margin: auto;
 	}
+	div {
+		text-align: center;
+		margin: 2em 0;
+		a {
+			color: $brand-color;
+			&:hover {
+				color: darken($brand-color, 15%);
+			}
+		}
+	}
 }
 
 footer {
 	position: relative;
 	display: block;
+	margin-bottom: 1em;
 	width: 100%;
 	border-top: solid 1px lightgray;
-	height: 30px;
-	padding: 2em 0 4em 0;
+	padding: 2em 0;
 	text-align: center;
 	#links-container {
 		margin: 1em 0;
@@ -418,9 +428,17 @@ footer {
 	}
 }
 
-.artist-container {
+.artist-container,
+.page-container {
 	margin: 2em 0;
 	.content {
 		margin: 2em 0;
+	}
+}
+
+.page-container .content a {
+	color: $brand-color;
+	&:hover {
+		color: darken($brand-color, 15%);
 	}
 }
