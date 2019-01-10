@@ -5,7 +5,7 @@ XRAY Records highlights the distinct sound of the Pacific North West, and is a p
 ## Dependencies
 
 1. Install a <a href="https://jekyllrb.com/docs/installation/">Ruby development environment</a>
-2. Install jekyl;l Ruby gem `$ gem install jekyll bundler`
+2. Install jekyll Ruby gem `$ gem install jekyll bundler`
 
 ## Local Development
 
