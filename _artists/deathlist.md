@@ -20,3 +20,12 @@ A Canyon is a ghost story, but Logan is the haunted one as well as the one doing
 The album is full of these eerie echoes, faint sparks of something ineffably strange and true. In Logan’s stricken cosmology, past lives are not escape hatches into romantic or tragic ideals, but resonances one finds in other people. And these are the people who make us feel like we are connected to something timeless, something that stretches back to the beginning of everything.
 
 And what happens when we lose one of those people? When we lose ourselves? We become defined by that loss until we find that echo again, touch that spark again. There might not be a wholeness to return to. There might not be a person to search for in the next life, if there is a next life. But we can chase the mysterious truth in our minds and we can dream beyond time, at least for a little while. A Canyon is that little while.
+
+---
+
+<div class="artist-item">
+    <a href="https://deathlist.bandcamp.com/album/a-canyon">
+        <img src="/assets/images/items/deathlist-a-canyon.jpg" alt="Deathlist - A Canyon, album art">
+        <h2>Deathlist - A Canyon</h2>
+    </a>
+</div>

@@ -14,3 +14,16 @@ The album sounds like a Beefier version of their already Beefed Up live show. Fo
 I’ve been saving the worst for last. I doubt they will show their faces on the cover but trust me they are Dead Foxxy—especially remarkable for an Instrumental Power Trio. I guess what I’m saying is…
 What’s not to Love???  
 — Stephen Malkmus
+
+---
+
+<div class="artist-item">
+    <a href="https://blesstchest.bandcamp.com/releases">
+        <img src="/assets/images/items/blesst-chest-casual-corner.jpg" alt="Blesst Chest - Casual Corner, album art">
+        <h2>Blesst Chest - Casual Corner</h2>
+    </a>
+    <a href="https://blesstchest.bandcamp.com/releases">
+        <img src="/assets/images/items/blesst-chest-wish-we-were-there.jpg" alt="Blesst Chest - Wish We Were There, album art">
+        <h2>Blesst Chest - Wish We Were There</h2>
+    </a>
+</div>
