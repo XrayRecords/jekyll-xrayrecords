@@ -365,11 +365,6 @@
 				font-size: 0.5em;
 				vertical-align: middle;
 			}
-			// &.dropdown {
-			// 	&:hover ul {
-			// 		display: inherit;
-			// 	}
-			// }
 			ul {
 				display: none;
 				padding: 10px;
@@ -436,6 +431,20 @@ footer {
 	margin: 2em 0;
 	.content {
 		margin: 2em 0;
+		hr {
+			border: solid 1px lightgray;
+			margin: 3em 0;
+		}
+		.artist-item {
+			a {
+				display: block;
+				cursor: pointer;
+				margin-bottom: 3em;
+			}
+			h2 {
+				text-align: center;
+			}
+		}
 	}
 }
 
