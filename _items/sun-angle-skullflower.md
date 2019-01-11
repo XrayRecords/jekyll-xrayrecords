@@ -3,6 +3,7 @@ layout: item
 title: Sun Angle - Skullflower
 image: assets/images/items/sun-angle-skullflower.jpg
 link: sun-angle-skullflower
+category: album
 ---
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1258641138/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://sunangle.bandcamp.com/album/skullflower">Sun Angle - Skullflower</a></iframe

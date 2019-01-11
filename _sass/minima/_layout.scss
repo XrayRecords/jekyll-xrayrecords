@@ -284,9 +284,10 @@
 	}
 }
 
-#grid {
+.grid {
 	display: block;
-	position: relative;
+	height: auto;
+	// position: relative;
 	.artist-box {
 		padding: 0 0.5em;
 		width: 25%;
@@ -435,10 +436,6 @@ footer {
 	margin: 2em 0;
 	.content {
 		margin: 2em 0;
-		hr {
-			border: solid 1px lightgray;
-			margin: 3em 0;
-		}
 		a.color {
 			color: $brand-color;
 			&:hover {
@@ -465,6 +462,10 @@ footer {
 				text-align: center;
 			}
 		}
+	}
+	hr {
+		border: solid 1px lightgray;
+		margin: 3em 0;
 	}
 }
 
