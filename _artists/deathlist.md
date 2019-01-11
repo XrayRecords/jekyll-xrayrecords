@@ -25,7 +25,7 @@ And what happens when we lose one of those people? When we lose ourselves? We be
 
 <div class="artist-item">
     <a href="https://deathlist.bandcamp.com/album/a-canyon"  class="item">
-        <img src="/assets/images/items/deathlist-a-canyon.jpg" alt="Deathlist - A Canyon, album art">
+        <img src="{{ site.baseurl }}/assets/images/items/deathlist-a-canyon.jpg" alt="Deathlist - A Canyon, album art">
         <h2>Deathlist - A Canyon</h2>
     </a>
 </div>
