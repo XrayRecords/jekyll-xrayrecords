@@ -502,3 +502,15 @@ footer {
 .center {
 	text-align: center;
 }
+
+@media (max-width: 650px) {
+	.item-container {
+		.item-image {
+			width: 100%;
+			padding-right: 0;
+		}
+		.item-content {
+			width: 100%;
+		}
+	}
+}
