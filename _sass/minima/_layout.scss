@@ -289,7 +289,7 @@
 	position: relative;
 	.artist-box {
 		padding: 0 0.5em;
-		width: 33.33%;
+		width: 25%;
 		float: left;
 		position: relative;
 		margin-bottom: 1em;
@@ -304,6 +304,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		margin-bottom: 6px;
+		transition: all 0.25s;
 	}
 	.hover-info {
 		position: absolute;
@@ -311,12 +312,16 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: rgba(0, 0, 0, 0.7);
+		background: rgba(0, 0, 0, 0.6);
 		transition: all 0.25s;
 		opacity: 0;
 	}
-	.aspect-ratio:hover .hover-info {
-		opacity: 1;
+	.aspect-ratio:hover {
+		// -webkit-filter: grayscale(100%);
+		// filter: grayscale(100%);
+		.hover-info {
+			opacity: 1;
+		}
 	}
 	.hover-content {
 		list-style: none;
@@ -458,6 +463,29 @@ footer {
 			}
 			h2 {
 				text-align: center;
+			}
+		}
+	}
+}
+
+.item-container {
+	margin: 2em 0;
+	.item-image {
+		display: inline-block;
+		width: 50%;
+		padding-right: 1em;
+		img {
+			width: 100%;
+		}
+	}
+	.item-content {
+		display: inline-block;
+		width: 49%;
+		vertical-align: top;
+		a {
+			color: $brand-color;
+			&:hover {
+				color: darken($brand-color, 15%);
 			}
 		}
 	}
