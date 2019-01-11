@@ -2,9 +2,13 @@
 layout: site
 ---
 
-<div id="splash">
+{{ site.splashpath }}
+<div id="splash" style="background-image:url('{{ site.splashpath }}')">
 	<div id="enter">
-		<img src="assets/images/logo-white-transparent.png" alt="">
+		<img
+			src="{{ site.baseurl }}/assets/images/logo-white-transparent.png"
+			alt=""
+		/>
 		<div id="enter-button">
 			<span><a href="home" class="plain">Enter</a></span>
 		</div>

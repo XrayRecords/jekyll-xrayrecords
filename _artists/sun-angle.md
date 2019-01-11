@@ -11,7 +11,7 @@ Sun Angle’s singular brand of frenetic and sprawling psych punk draws inspirat
 
 <div class="artist-item">
 	<a href="https://wellwell.bandcamp.com/album/light-years" class="item">
-        <img src="/assets/images/items/sun-angle-skullflower.jpg" alt="Sun Angle - Skullflower, album art">
+        <img src="{{ site.baseurl }}/assets/images/items/sun-angle-skullflower.jpg" alt="Sun Angle - Skullflower, album art">
         <h2>Sun Angle - Skullflower</h2>
     </a>
 </div>
