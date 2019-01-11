@@ -14,3 +14,12 @@ Secret Drum Band’s live performances are transportive, an opportune meditation
 
 “They’re not simply playing a show, they’re creating an immersive experience that lasts for a moment, then dissolves, creating a hypnotic alternate reality for all who bear witness to it.” 
 -The Oregonian
+
+---
+
+<div class="artist-item">
+	<a href="https://www.lisaschonberg.com/store/dynamics" class="item">
+        <img src="/assets/images/items/secret-drum-band-dynamics.jpg" alt="Secret Dum Band - Dynamics, album art">
+        <h2>Secret Dum Band - Dynamics</h2>
+    </a>
+</div>

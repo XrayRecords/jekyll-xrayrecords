@@ -13,3 +13,14 @@ Their first full length record ‘Hold’ expanded on the seed set by the Imperm
 The lunar and oceanic music of their second full length record, Light Years, continues to see the band’s sound develop. The textures are detailed and intimate, and the energy is focused. The album grows in large periodic swells characteristic of the elemental forces within nature and society that inspired the work. The album was written in one week and was originally composed for a live performance alongside the French surrealist animation, Gandahar by Rene Laloux. The band recorded the basic tracks at home and recorded vocals and overdubs in a small blue A-frame on the Oregon Coast. 
 
 After the recordings were completed the band still felt that the music’s original relationship to the visual elements of the animation had added a critical dimension to the work. They reached out to local artists and began a two year long collaboration which has resulted in the visual album, Light Years. The videos for Light Years were each produced using unique methods highlighting the distinct character of each song. Stereoscopic photography, 16mm film, stop motion animation, digital collage, slow motion film, dance, and 3d point cloud scanning techniques were all employed for the movie.
+
+---
+
+<div class="artist-item">
+    <a href="https://wellwell.bandcamp.com/album/light-years"  class="item">
+        <img src="/assets/images/items/wl-light-years.jpg" alt="WL - Light Years, album art">
+        <h2>WL - Light Years</h2>
+    </a>
+
+	<iframe class="video" width="100%" height="500" src="https://www.youtube.com/embed/YarsbehFmWk" frameborder="0" allowfullscreen></iframe>
+</div>

@@ -18,11 +18,11 @@ What’s not to Love???
 ---
 
 <div class="artist-item">
-    <a href="https://blesstchest.bandcamp.com/releases">
+    <a href="https://blesstchest.bandcamp.com/releases" class="item">
         <img src="/assets/images/items/blesst-chest-casual-corner.jpg" alt="Blesst Chest - Casual Corner, album art">
         <h2>Blesst Chest - Casual Corner</h2>
     </a>
-    <a href="https://blesstchest.bandcamp.com/releases">
+    <a href="https://blesstchest.bandcamp.com/releases" class="item">
         <img src="/assets/images/items/blesst-chest-wish-we-were-there.jpg" alt="Blesst Chest - Wish We Were There, album art">
         <h2>Blesst Chest - Wish We Were There</h2>
     </a>
