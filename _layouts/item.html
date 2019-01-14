@@ -2,13 +2,14 @@
 layout: site
 ---
 
-<div class="page-container">
+<div class="item-container">
 	<h1>{{ page.title }}</h1>
-	<img src="{{ page.image | relative_url }}" />
-
-	{% if embed %}
-	<div>{{ embed }}</div>
-	{% endif %}
-
-	<div class="content">{{ content }}</div>
+	<div>
+		<div class="item-image">
+			<img src="{{ page.image | relative_url }}" />
+		</div>
+		<div class="item-content">
+			<div class="content">{{ content }}</div>
+		</div>
+	</div>
 </div>

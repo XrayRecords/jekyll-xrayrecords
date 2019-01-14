@@ -5,8 +5,9 @@ layout: site
 <div class="page-container">
 	<h1>{{ page.title }}</h1>
 
-	<div id="grid">
+	<div class="grid">
 		{% assign items = site.items | sort:"title" %} {% for item in items %}
+		{% if item.category == 'album' %}
 		<div class="artist-box">
 			<div
 				class="aspect-ratio"
@@ -21,7 +22,23 @@ layout: site
 				</div>
 			</div>
 		</div>
-		{% endfor %}
+		{% endif %} {% endfor %} {% for item in items %} {% if item.category ==
+		'other' %}
+		<div class="artist-box">
+			<div
+				class="aspect-ratio"
+				style="background-image: url('{{ item.image }}')"
+			>
+				<div class="hover-info">
+					<ul class="hover-content">
+						<li>
+							<a href="items/{{ item.link }}">{{ item.title }}</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		{% endif %} {% endfor %}
 	</div>
 
 	<div class="content">{{ content }}</div>
